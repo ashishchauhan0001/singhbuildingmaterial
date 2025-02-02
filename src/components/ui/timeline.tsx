@@ -34,10 +34,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="md:w-3/4 ml-12 w-full items-center justify-center text-center bg-black font-sans md:px-10"
+      className="md:w-3/4 ml-12 w-full items-center text-white justify-center text-center bg-black font-sans md:px-10"
       ref={containerRef}
     >
-        <div className="md:text-center text-center text-3xl font-bold">
+        <div className="md:text-center text-white text-center text-3xl font-bold">
             Timeline⌛
         </div>
       
