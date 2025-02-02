@@ -25,6 +25,7 @@ export const AnimatedTooltip = ({
     id: number;
     name: string;
     image: string;
+    designation: string;
   } | null>(null);
 
   const springConfig = { stiffness: 100, damping: 5 };
@@ -119,7 +120,8 @@ export const AnimatedTooltip = ({
                 height={300}
                 className="rounded-lg"
               />
-              <h2 className="text-xl font-bold mt-4">{selectedImage.name}</h2>
+              <h2 className="text-xl text-black font-bold mt-4">{selectedImage.name}</h2>
+              <h2 className="text-sm text-black font-bold mt-4">({selectedImage.designation})</h2>
             </motion.div>
           </motion.div>
         )}
