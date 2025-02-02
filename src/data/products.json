@@ -1,0 +1,105 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "PVC Pipe",
+        "slug": "pvc-pipe",
+        "description": "PVC pipes are durable, lightweight, and corrosion-resistant pipes commonly used in plumbing, drainage, and electrical conduit systems.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "https://img.freepik.com/free-photo/minimalist-construction-pvc-pipes-composition_23-2149106871.jpg" 
+      },
+      {
+        "id": 2,
+        "title": "PVC Fittings",
+        "slug": "pvc-fitting",
+        "description": "PVC pipe fittings like T-joints, bands, elbows, and connectors are essential components used to join, redirect, or seal PVC pipes.",
+        "price": 109.99,
+        "instructor": "Jane Smith",
+        "isFeatured": false,
+        "image": "https://drive.google.com/uc?export=download&id=1w43oMCaQ_9DmTjvVYpsO4E84Hnq5eRs2" 
+      },
+      {
+        "id": 3,
+        "title": "Dr Fixit's LW+",
+        "slug": "dr-fixit",
+        "description": "LW+ by Dr. Fixit are renowned for their high-quality waterproofing solutions, offering effective protection against moisture and water damage.",
+        "price": 119.99,
+        "instructor": "Emily Johnson",
+        "isFeatured": true,
+        "image": "https://drive.google.com/uc?export=download&id=1wFoLriIBuUKe_3cmhNu5hLAxGH2sIHXO" 
+      },
+      {
+        "id": 4,
+        "title": "Wonder Cement",
+        "slug": "cement",
+        "description": "Wonder Cement is a premium quality cement known for its strength, durability, and smooth finish, ideal for construction projects.",
+        "price": 129.99,
+        "instructor": "Mike Brown",
+        "isFeatured": false,
+        "image": "https://drive.google.com/uc?export=download&id=1vqsUxPv443n0Da19bhDgB79NPWKF1wJ_"
+      },
+      {
+        "id": 5,
+        "title": "Roofon Cement",
+        "slug": "cement",
+        "description": "Roofon Cement is a high-performance cement known for its superior quality and strength, perfect for durable and long-lasting construction",
+        "price": 139.99,
+        "instructor": "Chris Davis",
+        "isFeatured": false,
+        "image": "https://drive.google.com/uc?export=download&id=1vo8G5a-vtiY3u03n91nsBCwL6-nzvtdx"
+      },
+      {
+        "id": 6,
+        "title": "Ultratech Cement",
+        "slug": "cement",
+        "description": "UltraTech Cement is a trusted brand offering high-quality, durable cement for a wide range of construction needs.(India's No 1 Cement.)",
+        "price": 149.99,
+        "instructor": "Alex Wilson",
+        "isFeatured": true,
+        "image": "https://drive.google.com/uc?export=download&id=1vgUTS7XqvNpk02buvR2dpe-Lw8DeYwET"
+      },
+      {
+        "id": 7,
+        "title": "RockStrong Cement",
+        "slug": "cement",
+        "description": "Rockstrong Cement is a reliable brand known for its exceptional strength and durability, ensuring long-lasting construction.",
+        "price": 159.99,
+        "instructor": "Samantha Miller",
+        "isFeatured": true,
+        "image": "https://drive.google.com/uc?export=download&id=1vhpavhcqsLlOuOR7gqPQjDn5a36nRUO7"
+      },
+      {
+        "id": 8,
+        "title": "Stone Rodi",
+        "slug": "rodi",
+        "description": "Stone Rodi is a high-quality, crushed stone aggregate commonly used in construction for its strength and durability (two varities 10mm and 20mm stone rodi).",
+        "price": 169.99,
+        "instructor": "Luke Harris",
+        "isFeatured": true,
+        "image": "https://lh3.googleusercontent.com/p/AF1QipNBIHDdmwk9I3BbOgnBMvgKULEDaC5WzwZzzptw=s680-w680-h510"
+      },
+      {
+        "id": 9,
+        "title": "Ganga Reti",
+        "slug": "reti",
+        "description": "Ganga Reti is a fine, natural river sand used in construction for its smooth texture and excellent bonding properties.",
+        "price": 179.99,
+        "instructor": "Grace Lee",
+        "isFeatured": false,
+        "image": "https://lh3.googleusercontent.com/p/AF1QipPMS3Ausk3z5XJ0zXllWvWdlskQrkcG2nVkwXc3=s680-w680-h510"
+      },
+      {
+        "id": 10,
+        "title": "Badarpur",
+        "slug": "badarpur",
+        "description": "Badarpur is a premium, clean, and finely sifted sand used in construction for smooth finishing and superior quality.",
+        "price": 189.99,
+        "instructor": "Ethan Moore",
+        "isFeatured": true,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/12/367567814/WQ/BN/YB/204443920/badarpur-brown-stone-dust.jpeg"
+      }
+    ]
+  }
+  

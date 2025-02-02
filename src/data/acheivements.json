@@ -1,0 +1,46 @@
+{
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Certificate of Authorization",
+      "certificate": "AWS Cloud Practitioner Essentials",
+      "description": "A certification by Ultratech for the official authorization to us.",
+      "img_url": "https://media-hosting.imagekit.io//77cb0c82b6cd4a79/a.jpg?Expires=1833028106&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=TtAUJGf72YZ6AYtrMGauDMZivTboqNd5crjkuJUKpO8i3qXlW3ftLP8WLFzDMtSjya3PiEZJa30i2DY0oUkw~I5tCEitleCSJJYdjSE2nlXS7fujLd7pQMEc5onWzLBcMhRLHSrV1VmsC8oVdqliXm1YQRWXxvDXIvRb5S6IJzq8nuFhPcfVaDTSkJJEJMRsgcfiC3CW8EJAdhDrbCvZsnX8Y1CKg3TutlDwCLD~xAnNUDxkNyJzAARhGXDhaOFDA9GPwo3SzpjFg5E2IWeKrRiS8VBNE0V4vTJ57Sr9JX8vOxYW4aqy3Kx1GRTcP1SotYIMrAb6kvEY4opwkULo~g__"
+    },
+    {
+      "id": 2,
+      "title": "Certificate from Shree Ultra",
+      "certificate": "MERN Stack Developer",
+      "description": "Certification that shows singh building material's contribution to their sucess",
+      "img_url": "https://media-hosting.imagekit.io//c91a81104ffa42ba/c.jpg?Expires=1833028106&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JHJLNDLEhCwRK7nZAn2GExuWbS~Ckuyvjqx~XWAwyCsJUG3KWX3WDZQIn4oE95KpTL94vW-xW6o1yWRejreOIFIAgJAFobK8LbVePlhR44wSsKOyVMsEsf5ZH590UKz8e-6dFYBRSlaQoEGBmqJ8pNzc9w0OPhgaXPeNGVn0zp2iEZvSL7VFbaDLPJLh3rZET-aDiE~WQOnOqku9rdCwHuZkp5kkX0uWHmDNsGwtgrNbSvOw9QAq1LoFEzahOLZ7Y0exQnEfqWZVU5ZN-BzuqiWEcslhVluifdkJpbDTr41eQh-r50DEn8WoGJELMiENL5lg3qnE33WutvnjK0l0sA__"
+    },
+    {
+      "id": 3,
+      "title": "Certificate from Pidilite",
+      "certificate": "Data Structures and Algorithms",
+    "description": "A certification that shows our excellence in selling their products.",
+      "img_url": "https://media-hosting.imagekit.io//508b138173454b70/d.jpg?Expires=1833028106&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=USDoOPChMsN5wbMLQ9e42QNHsgX4X~hMjEP3ALs~2KH1HXprvaGIeYkjKealtNi03lQEmKDe3IA7hPi2QV~wVbMv7CyfD7JAK891P~fiQydY2jiEiQk99sDty78k6CHn4zqYLQEEw7FCBI4Z14kX2Ut6Z2-8WDQvSV577ZSKZk771JLu4sxerNavjP3~9noxGMMGkt5knNRFmsKx6rEmgXv894x~bSA7eupygTBf-JEJtkTRUdy6eotu7afaR4ODzSlwljKZ32r8StoYHGzJbFuCPwt6GcBihWBHSNIcbCl39HRRismahP2z7qt6RvLqt0JOKrJFHAVnuAsAb8Vu0w__"
+    },
+    {
+      "id": 4,
+      "title": "Certificate of Authorization",
+      "certificate": "Project Management Basics",
+      "description": "A certification by Ultratech for the official authorization to us.",
+      "img_url": "https://media-hosting.imagekit.io//86ce0e6dcf574123/e.jpg?Expires=1833028106&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xS2inxoFHWJ2fCgKEz6hbIuwJlBuxQAgUrNDRk3hkp8i1ovKRetZMG-wLmEwdkNU4De9DobooZV8F8GGX7MYHTRx8m6Viw3sbtLRlTMTcCWflflWfA0-J-hZ3YfCjs2io7RwRvh7l4rsGpBM9wNHQ09PnveGdQBrWnTKM9YnOe4IChihWVV7JHe739kNPhM3b-cMd8xPh6EahB7D5h0I~Mk7Vl2hpaHS~a6H9FrzFNI9xx1c5Kv9sIKPw8Orr~jQ7yyYLwPdJpIAXbJKJNjFbwSYORmXCniAHd4TrYId7Cp2krQ4yl-QkWrRXOCiBKgqsD8hf-qjmb49mweJFFPcaQ__"
+    },
+    {
+      "id": 5,
+      "title": "Authorized Business Associate",
+      "certificate": "Cloud Computing Essentials",
+      "description": "A certificate thats shows us BigCem's Authorized Business Associate in our Area.",
+      "img_url": "https://media-hosting.imagekit.io//20935c3279994687/b.jpg?Expires=1833028106&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=UwXBsQ68uXLOVcyHibIV~Uz3bfR6mRjrPqm7c4cfZsuRpLEkjvfA5Sdo7VjjEQWgi1VPPINS2w-knJgmDOiDh5cJbp5WYj3-DV-cxhEq1yuLzECzIGS18HWonPVnxpwSngUPOuchoujk-nsK0CbfdXfDyUhmj1DUlA1yirEwwiUR8xV8-mOhR7ImR-Ov3i-uJj3PiQjkOO~36vqsn3~LWb~0idlDW1egSP16BEjn23f6TiSSNLSAFeCJSFp9BvFQsLGtHDjjdR7cXEdxpJX57ZayyX43JhQkSEf~zxlPM9uFvRUueYjw-kj2N5JzcXP9zLdQl6Fi2~q8I~c91GKS~Q__"
+    },
+    {
+        "id": 6,
+        "title": "Certificate from Shree Ultra",
+        "certificate": "Cloud Computing Essentials",
+        "description": "Certification that shows singh building material's contribution to their sucess.",
+        "img_url": "https://media-hosting.imagekit.io//c91a81104ffa42ba/c.jpg?Expires=1833028106&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JHJLNDLEhCwRK7nZAn2GExuWbS~Ckuyvjqx~XWAwyCsJUG3KWX3WDZQIn4oE95KpTL94vW-xW6o1yWRejreOIFIAgJAFobK8LbVePlhR44wSsKOyVMsEsf5ZH590UKz8e-6dFYBRSlaQoEGBmqJ8pNzc9w0OPhgaXPeNGVn0zp2iEZvSL7VFbaDLPJLh3rZET-aDiE~WQOnOqku9rdCwHuZkp5kkX0uWHmDNsGwtgrNbSvOw9QAq1LoFEzahOLZ7Y0exQnEfqWZVU5ZN-BzuqiWEcslhVluifdkJpbDTr41eQh-r50DEn8WoGJELMiENL5lg3qnE33WutvnjK0l0sA__"
+      }
+  ]
+}
