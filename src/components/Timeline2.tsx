@@ -64,7 +64,7 @@ export function Timeline2() {
     
   ];
   return (
-    <div className="w-4/5 mt-12 md:mt-0 md:ml-60">
+    <div className="w-3/4 mt-12 md:mt-0 md:ml-60">
       <Timeline data={data} />
     </div>
   );

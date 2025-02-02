@@ -37,7 +37,7 @@ const customerFeedback = [
 function CustomerFeedback() {
   return (
     <div className="h-[40rem] w-full bg-black bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
-        <h2 className="text-3xl font-bold text-center mb-8 z-10">Customer Voices: Our Commitment to Excellence</h2>
+        <h2 className="text-3xl font-bold text-center text-white mb-8 z-10">Customer Voices: Our Commitment to Excellence</h2>
         <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
             <div className="w-full max-w-6xl">
                 <InfiniteMovingCards

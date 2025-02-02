@@ -3,7 +3,7 @@ import { MapPin, Mail, Phone, Facebook, Twitter, Instagram } from "lucide-react"
 
 function Footer() {
   return (
-    <footer className="bg-black text-gray-400 py-12">
+    <footer className=" text-gray-400 py-12">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-6 lg:px-8">
         
         {/* About Us Section */}
@@ -49,20 +49,23 @@ function Footer() {
       {/* Social Media Links with Hover Effects */}
       <div className="flex justify-center space-x-6 mt-8">
         <a
-          href="#"
+          href="https://www.facebook.com/share/19pPLHXjWC/"
           className="transition-colors duration-300 text-gray-400 hover:text-blue-500"
+          target='_blank'
         >
           <Facebook size={24} />
         </a>
         <a
-          href="#"
+          href="https://x.com/Nitish_Edits2?t=zMj6yZxsPgAojrVLf56RMw&s=08"
           className="transition-colors duration-300 text-gray-400 hover:text-blue-400"
+          target='_blank'
         >
           <Twitter size={24} />
         </a>
         <a
-          href="#"
+          href="https://www.instagram.com/ashish_chauhan29/?hl=en"
           className="transition-colors duration-300 text-gray-400 hover:text-pink-500"
+          target='_blank'
         >
           <Instagram size={24} />
         </a>
