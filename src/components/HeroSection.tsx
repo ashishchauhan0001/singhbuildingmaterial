@@ -12,7 +12,7 @@ function HeroSection() {
       <Spotlight/>
         <div className="p-4 relative z-10 w-full text-center" >
             <h1
-            className="mt-20 p-auto  text-4xl md:text-7xl md:mt-16 font-serif bg-clip-text md:text-white text-amber-300"
+            className="mt-20 p-auto  text-4xl md:text-7xl md:mt-16 font-serif bg-clip-text  text-amber-300"
             >Singh
             <br /> Building Material</h1>
             <p

@@ -18,10 +18,10 @@ function Navbar({ className }: { className?: string }) {
   };
 
   return (
-    <div className={cn("fixed top-6 inset-x-0 max-w-2xl mx-auto z-50", className)}>
+    <div className={cn("fixed top-6 inset-x-0 max-w-2xl mx-auto z-50 text-amber-300", className)}>
       {/* Desktop Menu */}
       <div className="hidden md:block">
-        <Menu setActive={setActive}>
+        <Menu setActive={setActive} >
           <Link href="/">
             <MenuItem setActive={setActive} active={active} item="Home" />
           </Link>
