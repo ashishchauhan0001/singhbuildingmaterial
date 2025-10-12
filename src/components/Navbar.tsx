@@ -5,16 +5,27 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
+import { useRouter } from 'next/navigation';
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const router = useRouter();
 
   // Function to close the mobile menu and reset the services state
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
     setIsServicesOpen(false); // Reset the services section
+  };
+
+  const handleMapClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    router.push('/');
+    setTimeout(() => {
+      const mapElement = document.getElementById('map');
+      mapElement?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
   };
 
   return (
@@ -25,7 +36,8 @@ function Navbar({ className }: { className?: string }) {
           <Link href="/">
             <MenuItem setActive={setActive} active={active} item="Home" />
           </Link>
-          <MenuItem setActive={setActive} active={active} item="Our Products">
+          <Link href="/product">
+          <MenuItem  setActive={setActive} active={active} item="Our Products">
             <div className="flex flex-col space-y-4 text-sm">
               <HoveredLink href="/product">PVC pipes</HoveredLink>
               <HoveredLink href="/product">Cements</HoveredLink>
@@ -34,6 +46,7 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/product">Stone Rodi</HoveredLink>
             </div>
           </MenuItem>
+          </Link>
           <MenuItem setActive={setActive} active={active} item="Services">
             <div className="text-sm grid md:grid-cols-2 grid-cols-1 gap-10 p-4">
               <ProductItem
@@ -62,20 +75,23 @@ function Navbar({ className }: { className?: string }) {
               />
             </div>
           </MenuItem>
+          <Link href="/gallery">
+            <MenuItem setActive={setActive} active={active} item="Gallery" />
+          </Link>
+          <Link href="#map" onClick={handleMapClick}>
+            <MenuItem setActive={setActive} active={active} item="Maps" />
+          </Link>
           <Link href="/contact">
             <MenuItem setActive={setActive} active={active} item="Contact Us" />
-          </Link>
-          <Link href="#map">
-            <MenuItem setActive={setActive} active={active} item="Maps" />
           </Link>
         </Menu>
       </div>
 
       {/* Mobile Menu */}
-      <div className="md:hidden flex items-center justify-between p-4 text-white shadow-lg bg-black rounded-3xl">
+      <div className="md:hidden flex items-center justify-between p-4 text-white shadow-[0_0_15px_rgba(128,128,128,0.5)] bg-black rounded-3xl">
         <div className="h-20 w-24 -mt-12">
           <Link href={"/"}>
-          <img src="https://media-hosting.imagekit.io//b6a199f3e2fe47c7/singh-building-material-high-resolution-logo-transparent.png?Expires=1833069943&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lsHFUzGowyde7xcVXn~ZewlEtY0sG6UsQgqqkA8czxR8mqT6Rayh7ua42iayTFxxRJMpj7plxhJ52zG3eV5vOw5-OuVzru3Ii5vzixsQOExm3qnt027w01cmmjD163kql1y8zthti6kSI4I6erVecd7WQXOhrBDHK~dmZJblC3~AEBtZyg~jZDqXDjCSB7YL-KRNgTI21-woK1ubomdYhTCPLPMxA7QS2LA5mKvXXKrlnE69W8cX~bG9-F1EH0GTWkd0bWJkUq4s1BV225Rgt7DlCONpEXH83W-BmcUhtbUOfC5fV-CYA7xsNY3sS2OC50MCvSH8BSMROXlFwDworg__" alt="Logo" /> </Link>
+          <img src="https://res.cloudinary.com/dmgjs6msq/image/upload/v1760248792/singh-building-material-high-resolution-logo-transparent_y2xwzk.png" alt="Logo" /> </Link>
         </div>
         <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           {isMobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
@@ -116,8 +132,9 @@ function Navbar({ className }: { className?: string }) {
               />
             </div>
           )}
+          <Link href="/gallery" onClick={closeMobileMenu}>Gallery</Link>
+          <Link href="#map" onClick={ (e)=> { handleMapClick(e); closeMobileMenu();}} >Maps</Link>
           <Link href="/contact" onClick={closeMobileMenu}>Contact Us</Link>
-          <Link href="#map" onClick={closeMobileMenu}>Maps</Link>
         </div>
       )}
     </div>
